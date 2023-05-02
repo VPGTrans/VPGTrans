@@ -110,10 +110,9 @@ def gradio_answer(chatbot, chat_state, img_list, num_beams, temperature):
     return chatbot, chat_state, img_list
 
 
-title = """<h1 align="center">Demo of VL-Vicuna</h1>"""
-description = """<h3>This is the demo of VL-Vicuna. Upload your images and start chatting!</h3>"""
-article = """<p><a href='https://vpgtrans.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a></p><p><a href='https://github.com/VPGTrans/VPGTrans'><img src='https://img.shields.io/badge/Github-Code-blue'></a></p><p><a href='https://vpgtrans.github.io'><img src='https://img.shields.io/badge/Paper-PDF-red'></a></p>
-"""
+title = """<h1 align="center">Play with VL-Vicuna</h1>"""
+description = """<h3>This is the VL-Vicuna, a novel VL-LLM built via our VPGTrans framework. Please first upload your images and start chatting!</h3>"""
+article = """<span><a href='https://vpgtrans.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a></span>   <span><a href='https://github.com/VPGTrans/VPGTrans'><img src='https://img.shields.io/badge/Github-Code-blue'></a></span>   <span><a href='https://vpgtrans.github.io'><img src='https://img.shields.io/badge/Paper-PDF-red'></a></span>"""
 
 # TODO show examples below
 
