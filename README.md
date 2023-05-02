@@ -7,7 +7,7 @@
 **Technology, Tsinghua University**
 
 
-<a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://2146e1a6d3f2bace4b.gradio.live'><img src='https://img.shields.io/badge/Demo-Page-blue'></a> 
+<a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://ee569fe29733644a33.gradio.live'><img src='https://img.shields.io/badge/Demo-Page-blue'></a> 
 
 ## What's New: 🎉 
 - [x] 2023.05.01 Rlease the code.
@@ -41,7 +41,7 @@ The performance of VL-LLaMA looks like:
 
 
 Checkout the image for our demo of VL-Vicuna:
-[![demo](figs/online_demo.png)](https://2146e1a6d3f2bace4b.gradio.live)  
+[![demo](figs/online_demo.png)](https://ee569fe29733644a33.gradio.live)  
 
 
 ## Installation
