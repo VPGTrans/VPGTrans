@@ -14,6 +14,8 @@
 
 ## Table of Contents
   - [Introduction](#introduction)
+    - [VL-LLaMA](#vl-llama)
+    - [VL-Vicuna](#vl-vicuna)
   - [Installation](#installation)
   - [VL-Vicuna Demo](#vl-vicuna-demo)
   - [Evaluation](#evaluation)
@@ -24,23 +26,32 @@
   - [License](#license)
 
 ## Introduction
-We develop a VPGTrans framework for transferring visual prompt generator (VPG) across LLMs to build VL-LLMs.
-The GPU hours can be reduced over 10 times and the training data can be reduced to around 10%, like:
+
+While developing a new vision-language LLM (VL-LLM) by pre-training on tremendous image-text pairs from scratch can be exceedingly resource-consuming, connecting an existing LLM with a comparatively lightweight visual prompt generator (VPG) becomes a feasible paradigm. 
+However, further tuning the VPG part of the VL-LLM still suffers from indispensable computational costs.
+
+In this project, we develop a VPGTrans framework for transferring VPG across LLMs to build VL-LLMs at significantly lower cost.
+The GPU hours can be reduced over 10 times and the training data can be reduced to around 10%:
 [![demo](figs/cost.png)](https://github.com/VPGTrans/VPGTrans)
 
-Our framework consists of two stages:
+VPGTrans comprises two stages of training:
 [![demo](figs/VPGTrans.png)](https://github.com/VPGTrans/VPGTrans)
 
-The most exciting thing is that VPGTrans enable us to **customize new VL-LLMs with newly released LLMs**.
-For example, we release a **VL-LLaMA and VL-Vicuna**.
-The performance of VL-LLaMA looks like:
+The most exciting thing is that VPGTrans enables to **customize new VL-LLMs with newly released LLMs**.
+In this project, we release two novel VL-LLMs via our VPGTrans, including **VL-LLaMA** and **VL-Vicuna**.
+
+### VL-LLaMA
+We customize a **VL-LLaMA**, a multimodal version LLaMA by transferring the BLIP-2 OPT-6.7B to LLaMA via VPGTrans.
+The performance of **VL-LLaMA** is summarized as follow:
 <div>
   <a><img src="./figs/performance.png" width = "500" height = "200" alt="" align=left /></a>
   <br><br><br><br><br><br><br><br><br>
 </div>
 
 
-Checkout the image for our demo of VL-Vicuna:
+### VL-Vicuna
+We also build a GPT-4-like multimodal chatbot, **VL-Vicuna**, based on the Vicuna LLM.
+Checkout our demo of VL-Vicuna:
 [![demo](figs/online_demo.png)](https://ee569fe29733644a33.gradio.live)  
 
 
