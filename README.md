@@ -7,7 +7,7 @@
 **Technology, Tsinghua University**
 
 
-<a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://ee569fe29733644a33.gradio.live'><img src='https://img.shields.io/badge/Demo-Page-blue'></a> 
+<a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://github.com/VPGTrans/VPGTrans/blob/main/vpgtrans.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://ee569fe29733644a33.gradio.live'><img src='https://img.shields.io/badge/Demo-Page-blue'></a> 
 
 ## What's New: 🎉 
 - [x] 2023.05.01 Rlease the code.
