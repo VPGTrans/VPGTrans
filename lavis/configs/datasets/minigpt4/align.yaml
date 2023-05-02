@@ -1,0 +1,6 @@
+
+datasets:
+  minigpt4_self_instruct_caption:
+    data_type: images
+    build_info:
+      storage: /home/aiops/feihao/zhangao/codes/VPGTrans/minigpt4_data/cc_sbu_align
