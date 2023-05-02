@@ -1,11 +1,13 @@
 # VPGTrans: Transfer Visual Prompt Generator across LLMs
-[Ao Zhang](https://waxnkw.github.io/), [Hao Fei](https://haofei.vip/)\*, [Yuan Yao](https://yaoyuanthu.github.io/)\*, [Wei Ji](https://jiwei0523.github.io/), [Li Li](https://vpgtrans.github.io/), [Zhiyuan Liu](http://nlp.csai.tsinghua.edu.cn/~lzy/) and [Tat-Seng Chua](https://www.chuatatseng.com/). *Correspondence 
+[Ao Zhang](https://waxnkw.github.io/), [Hao Fei](https://haofei.vip/)\*, [Yuan Yao](https://yaoyuanthu.github.io/)\*, [Wei Ji](https://jiwei0523.github.io/), [Li Li](https://vpgtrans.github.io/), [Zhiyuan Liu](http://nlp.csai.tsinghua.edu.cn/~lzy/) and [Tat-Seng Chua](https://www.chuatatseng.com/).  (*Correspondence )
 
-**Sea-NExT Joint Lab, National University of Singapore**
+**National University of Singapore**, **Tsinghua University**
 
+Project page: [VPGTrans](https://vpgtrans.github.io/)
 
-**Technology, Tsinghua University**
+This repo contains all the source codes for the proposed methods and the two newly-built VL-LLMs.
 
+-----------
 
 <a href='https://vpgtrans.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://github.com/VPGTrans/VPGTrans/blob/main/vpgtrans.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://ee569fe29733644a33.gradio.live'><img src='https://img.shields.io/badge/Demo-Page-blue'></a> 
 
