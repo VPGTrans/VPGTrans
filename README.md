@@ -54,7 +54,7 @@ The performance of **VL-LLaMA** is summarized as follow:
 ### VL-Vicuna
 We also build a GPT-4-like multimodal chatbot, **VL-Vicuna**, based on the Vicuna LLM.
 Checkout our demo of VL-Vicuna:
-[![demo](figs/online_demo.png)](https://ee569fe29733644a33.gradio.live)  
+[![demo](figs/online_demo.png)](https://vpgtrans.github.io/)  
 
 
 ## Installation
