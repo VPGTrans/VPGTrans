@@ -276,7 +276,10 @@ If you're using VPGTrans in your research or applications, please cite using thi
 @article{2023vpgtrans,
   author      = {Ao Zhang and Hao Fei and Yuan Yao and Wei Ji and Li Li and Zhiyuan Liu and Tat-Seng Chua},
   title       = {Transfer Visual Prompt Generator across LLMs},
-  year        = {2023},
+  journal      = {CoRR},
+  volume       = {abs/23045.01278},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.01278},
 }
 ```
 
