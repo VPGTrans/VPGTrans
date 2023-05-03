@@ -27,3 +27,4 @@ transformers==4.28.1
 webdataset
 img2dataset
 wheel
+gradio
