@@ -102,7 +102,9 @@ class BaseModel(torch.nn.Module):
         def get_word_embed(wrd_model):
             if "opt" in wrd_model:
                 word_embed_data, _= get_opt_word_embed(wrd_model)
-            elif "llama" in wrd_model:
+            elif "llama" in wrd_model.lower():
+                word_embed_data, _ = get_llama_word_embed(wrd_model)
+            elif "vicuna" in wrd_model.lower():
                 word_embed_data, _ = get_llama_word_embed(wrd_model)
             return word_embed_data
         if "opt" in from_wrd_model:
