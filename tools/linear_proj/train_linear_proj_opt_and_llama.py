@@ -238,7 +238,8 @@ to_model = {}
 to_model[f"{to_key}.weight"]= weight
 to_model[f'{to_key}.bias'] = bias
 save_dir = sys.argv[4]
-print("save", f"linear_{from_size.split('/')[-1]}_to_{to_size.split('/')[-1]}.pth to {save_dir}")
+to_name = [x for x in to_size.split('/') if x!=""][-1]
+print("save", f"linear_{from_size.split('/')[-1]}_to_{to_name}.pth to {save_dir}")
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
-torch.save({"model": to_model}, os.path.join(save_dir, f"linear_{from_size.split('/')[1]}_to_{to_size.split('/')[1]}.pth"))
+torch.save({"model": to_model}, os.path.join(save_dir, f"linear_{from_size.split('/')[1]}_to_{to_name}.pth"))
