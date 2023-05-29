@@ -39,7 +39,7 @@ class ImageTextPairDataset(BaseDataset, __DisplMixin):
         # TODO this assumes image input, not general enough
         ann = self.annotation[index]
 
-        image_path = os.path.join(self.vis_root, ann["image"])
+        image_path = os.path.join(self.vis_root, os.path.basename(ann["image"]))
         image = Image.open(image_path).convert("RGB")
 
         image = self.vis_processor(image)
